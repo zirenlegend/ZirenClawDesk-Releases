@@ -1,9 +1,9 @@
 # ZirenClawDesk 发布仓库
 
-[![Download](https://img.shields.io/github/downloads/zirenlegend/ZirenClawDesk-Releases/total.svg)](https://github.com/zirenlegend/ZirenClawDesk-Releases/releases)
-[![Latest Release](https://img.shields.io/github/v/release/zirenlegend/ZirenClawDesk-Releases?label=latest)](https://github.com/zirenlegend/ZirenClawDesk-Releases/releases/latest)
+[!\[Download\](https://img.shields.io/github/downloads/zirenlegend/ZirenClawDesk-Releases/total.svg null)](https://github.com/zirenlegend/ZirenClawDesk-Releases/releases)
+[!\[Latest Release\](https://img.shields.io/github/v/release/zirenlegend/ZirenClawDesk-Releases?label=latest null)](https://github.com/zirenlegend/ZirenClawDesk-Releases/releases/latest)
 
-本仓库包含 **ZirenClawDesk** 的官方发布版本 - 一款基于 [OpenClaw](https://github.com/zirenlegend/openclaw) 的多模型、多渠道 AI 桌面工作台。
+本仓库包含 **ZirenClaw **的官方发布版本 - 一款基于 [OpenClaw](https://github.com/zirenlegend/openclaw) 的多模型、多渠道 AI 桌面工作台。
 
 ## 下载
 
@@ -11,20 +11,20 @@
 
 ### Windows
 
-| 架构 | 文件 |
-|-----|------|
-| x64 (Intel/AMD) | `ZirenClawDesk-*-win-x64.exe` |
-| ARM64 | `ZirenClawDesk-*-win-arm64.exe` |
+| 架构              | 文件                          |
+| --------------- | --------------------------- |
+| x64 (Intel/AMD) | `ZirenClaw-*-win-x64.exe`   |
+| ARM64           | `ZirenClaw-*-win-arm64.exe` |
 
 ### Linux
 
-| 格式 | 架构 | 文件 |
-|-----|------|------|
-| AppImage（推荐） | x64 | `ZirenClawDesk-*-linux-x86_64.AppImage` |
-| AppImage | ARM64 | `ZirenClawDesk-*-linux-arm64.AppImage` |
-| Debian/Ubuntu | x64 | `ZirenClawDesk-*-linux-amd64.deb` |
-| Debian/Ubuntu | ARM64 | `ZirenClawDesk-*-linux-arm64.deb` |
-| RPM | x64 | `ZirenClawDesk-*-linux-x86_64.rpm` |
+| 格式            | 架构    | 文件                                  |
+| ------------- | ----- | ----------------------------------- |
+| AppImage（推荐）  | x64   | `ZirenClaw-*-linux-x86_64.AppImage` |
+| AppImage      | ARM64 | `ZirenClaw-*-linux-arm64.AppImage`  |
+| Debian/Ubuntu | x64   | `ZirenClaw-*-linux-amd64.deb`       |
+| Debian/Ubuntu | ARM64 | `ZirenClaw-*-linux-arm64.deb`       |
+| RPM           | x64   | `ZirenClaw-*-linux-x86_64.rpm`      |
 
 ## 安装说明
 
@@ -37,7 +37,7 @@
 
 ```bash
 # 添加执行权限
-chmod +x ZirenClawDesk-*.AppImage
+chmod +x ZirenClaw-*.AppImage
 
 # Ubuntu 22.04
 sudo apt install libfuse2
@@ -53,7 +53,7 @@ sudo apt install libfuse2t64
 sudo apt install libgtk-3-0t64 libnotify4t64 libxss1t64
 
 # 安装软件包
-sudo dpkg -i ZirenClawDesk-*.deb
+sudo dpkg -i ZirenClaw-*.deb
 ```
 
 ## 自动更新
